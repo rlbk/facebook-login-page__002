@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+
+
+.fb-container-text,
+.fb-container-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.fb-container-text {
+    margin-top: -100px;
+}
+
+.fb-container-text img {
+    width: 56%;
+}
+
+.fb-container-text p {
+    font-size: 1.6rem;
+    width: 80%;
+    text-align: left;
+    padding-left: 5%;
+
+}
+
+
+
+.fb-container-form {
+    background-color: #fff;
+    border-radius: 0.6rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 1rem;
+    width: 390px;
+}
+
+.fb-container-form input {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #dadde1;
+    outline: none;
+    border-radius: 0.4rem;
+}
+
+
+
+.email,
+.password {
+    margin-bottom: 0.8rem;
+}
+
+
+
+
+.email:focus,
+.password:focus {
+    border: 1px solid #1b74e4 !important;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+
+.btn-login {
+    background-color: #1877f2;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-login:hover {
+    background-color: #166fe5;
+    cursor: pointer;
+}
+
+.fb-container-form input.btn-login {
+    font-size: 1.2rem;
+}
+
+.fb-container-form a {
+    text-decoration: none;
+    color: #1877f2;
+    margin: 1rem auto;
+}
+
+.fb-container-form a:hover {
+    text-decoration: underline;
+}
+
+.form-hr-line {
+    border-top: 1px solid #dadde1;
+}
+
+.btn-create {
+    width: 70%;
+    background-color: #42b72a;
+    color: #fff;
+    font-weight: 600;
+    margin: 1.4rem auto 0;
+}
+
+.btn-create:hover {
+    cursor: pointer;
+    background-color: #36a420;
+}
+
+.fb-container-form input.btn-create {
+    font-size: 1.1rem;
+}
+
+
+.para-createPage {
+    position: relative;
+    top: 60px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+a.an-createP {
+    color: #000;
+    font-weight: 600;
+}
+
+a.an-createP:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ************* Footer styling ********** */
+footer {
+    height: 20vh;
+    width: 100%;
+}
+
+.foot-container {
+    width: 70%;
+    margin: 2rem auto 1rem;
+}
+
+.foot-container a {
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.foot-container a:hover {
+    text-decoration: underline;
+}
+
+.btn-plus {
+    padding: 0 8px;
+    color: #8a8d91;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.foot-hr-line {
+    border-bottom: 1px solid #dadde1;
+    margin: 10px 0;
+
+}
+
+.footer-copy {
+    text-decoration: none;
+    color: #737373;
+    font-size: 0.6rem;
+    margin-top: 1rem;
+
+}
